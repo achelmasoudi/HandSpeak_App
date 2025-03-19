@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.HandSpeak" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/primary_color</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Primary brand color. -->
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- for the bar that is above Toollbar -->
+        <item name="android:statusBarColor">@color/primary_color</item>
+        <!-- for the color of the bar that is below the bottom navigation -->
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <!--    The Splash Screen Theme -->
+    <style name="TheSplashScreen_Style" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:statusBarColor">@color/splash_screen_color</item>
+    </style>
+</resources>
